@@ -1,11 +1,11 @@
-# docker java-resource
+# docker jenkins-resource
 
 ## build
 ```bash
-./build.sh
+docker build -t beyondspider/jenkins-resource:latest .
 ```
 
 ## push
 ```bash
-./push.sh
+docker push beyondspider/jenkins-resource:latest
 ```
